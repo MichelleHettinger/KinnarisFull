@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "rake service:proxy && rake service:backend && rake service:cryptonodes && rake service:daemons"
+    "start": "rake service:app && rake service:cryptonodes && rake service:daemons"
   },
   "repository": {
     "type": "git",
