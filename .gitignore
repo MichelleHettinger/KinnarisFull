@@ -15,3 +15,5 @@ vendor/
 *.tfvars
 terraform.tfstate*
 !data/geth/.gitkeep
+/node_modules/
+
