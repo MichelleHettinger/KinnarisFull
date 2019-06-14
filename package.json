@@ -1,0 +1,27 @@
+{
+  "name": "kinnarisfull",
+  "version": "0.0.1",
+  "description": "Full Debian 9 VM Stack",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "rake service:cryptonodes && rake service:daemons"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelleHettinger/KinnarisFull.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "exchange"
+  ],
+  "author": "Michelle Hettinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichelleHettinger/KinnarisFull/issues"
+  },
+  "homepage": "https://github.com/MichelleHettinger/KinnarisFull#readme"
+}
