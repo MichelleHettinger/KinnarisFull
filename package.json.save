@@ -1,14 +1,17 @@
 {
-  "name": "kinnarisfull",
+  "name": "kinnaris-full",
   "version": "0.0.1",
   "description": "Full Debian 9 VM Stack",
   "main": "index.js",
   "directories": {
     "doc": "docs",
     "lib": "lib"
+  },  "dependencies": {
+    "serve": "^11.0.1"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "rake service:proxy && rake service:backend && rake service:cryptonodes && rake service:daemons"
+    "setup": "rake service:cryptonodes && rake service:daemons"
   },
   "repository": {
     "type": "git",

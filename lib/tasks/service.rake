@@ -116,8 +116,8 @@ namespace :service do
 
     def start
       puts '----- Running hooks -----'
-      sh 'docker-compose run --rm peatio bash -c "./bin/link_config && bundle exec rake db:create db:migrate db:seed"'
-      sh 'docker-compose run --rm barong bash -c "./bin/init_config && bundle exec rake db:create db:migrate db:seed"'
+      sh 'docker-compose run --rm peatio bash -c "./bin/link_config && bundle exec rake db:create db:migrate"'
+      sh 'docker-compose run --rm barong bash -c "./bin/init_config && bundle exec rake db:create db:migrate"'
     end
 
     def stop

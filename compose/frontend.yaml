@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
   frontend:
-    image: "michellehettinger/kinnaris:1.0.1"
+    image: "rubykube/mikroapp:0.1.5"
     volumes:
       - ../config/frontend/env.js:/home/node/public/env.js
     labels:
